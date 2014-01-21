@@ -39,8 +39,8 @@ s</script>
 	  $registro = mysql_query("SELECT * FROM maquina ") or die ("problemas en consulta:".mysql_error());
 	  ?>
 	  <div class="codrops-top">
-                <a href="user.php">
-                    <strong>VOLVER</strong>
+                <a href="index.php">
+                    <strong>PAGINA PRINCIPAL</strong>
                 </a>
                 <span class="right">
                     <a href="destruir.php">
@@ -213,7 +213,7 @@ s</script>
 				 </p>
 		    	  
 				 </form>
-				 <form action='user.php' method='post' name='formm'>
+				 <form action='index.html' method='post' name='formm'>
 				 <p class="login button"> 
                  <input type='submit' value='volver' />
 			</p></form>
