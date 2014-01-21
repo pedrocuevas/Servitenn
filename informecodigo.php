@@ -57,6 +57,7 @@ s</script>
                         </div>
                 </div>  
 				</div>
+				</div>
 			 <form action='informe.php' method='post' name='form'>
              <table id="box-table-b">
              <tr>
@@ -212,7 +213,7 @@ s</script>
                   </hgroup>
                </article>
 			</section>
-			</div>
+			
 			<?php }else {
 		echo "No puedes ver esta página, regístrate e inicia sesión";
 		}?>
