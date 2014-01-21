@@ -1,0 +1,187 @@
+*{
+     margin:0;
+}
+
+body
+{
+	background-image: url(fondo.png);
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: bold;
+	font-size: large;
+	text-align: right;
+	text-shadow:1px 1px 0 rgba(0,0,0,.3);
+	
+
+}
+
+h1
+{
+	color:#000;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight:bold;
+	font-size:36px;	
+	text-align:center; 
+	
+}
+
+
+
+h2
+{
+	top: 200px;
+	color:#000;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight:bold;
+	font-size:18px;	
+	font-style:oblique;
+	background-color:#09F;
+}
+
+
+
+ul li
+{
+	outline:solid;
+	outline-color:#000;
+	outline-width:medium;
+	outline-style:hidden;
+	display:inline-block;
+	
+}
+
+
+
+.textPr
+{
+	width:960px;
+	height:400px;
+	background-color:#9CF;
+	opacity: .8;
+	color:#000; 
+	margin: 10%;
+	text-align: left;
+	border-radius:50px;
+	padding: 5px;
+}
+
+#mi_Canvas
+{
+	position: absolute;
+	bottom:0px;
+	left: 0px;
+}
+
+
+form
+{
+	position: absolute;
+	top: 147px;
+	left: 551px;
+	text-align: left;
+}
+
+#todos
+{
+	position: absolute;
+	text-align: center;
+	left: 580px;
+    width: 200px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+a
+{
+	/*background-color: #CCC;*/
+	margin-left: 11px;
+	/*border: hidden;*/
+	/*float: left;*/
+	color: blue;
+	/*height: 25px;*/
+	font-size: 1px;
+	font-weight: bold;
+	/*padding: 3px;*/
+	text-align: center;
+	text-decoration: underline;
+	width: 80px;
+	/*border-radius: 10px;*/
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+section a.error
+{
+	background-color:#000;
+}
+
+
+
+#nav,#nav li {
+margin: center;
+padding: 3px;
+list-style: circle;
+}
+
+#nav a {
+width: 150px;
+height: 25px;
+color: #000;
+display: inline;
+font: bold 12px/22px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+text-decoration: none;
+text-indent: 10px;
+margin-left:0;
+}
+
+#nav a:hover {
+background-position:27px;
+color: #000;
+text-decoration: none;
+}
+
+#textPr2
+{
+	width:1500px;
+	height:1000px;
+	background-color:#9CF;
+	color:#000; 
+	margin: 0 auto;
+	text-align: left;
+	border-radius:100px;
+	padding: 5px; 
+}
+
+#iniciarsecion{
+ 
+ position:relative;
+left: 1%;
+top:  10%;
+ 
+ 
+ }
+
+ #contenido
+{
+	width:960px;
+	margin: 0 auto;
+	margin-bottom:800px;
+	text-align: center; 
+}
+
+h1:hover{
+-webkit-transform:scale(1.2);
+	 -moz-transform:scale(1.1);
+}
+
+
+
+footer {
+ position: static;
+ font-family:Geneva, Arial, Helvetica, sans-serif;
+ text-align: center; 
+ color: #FFFFFF; 
+ display:block;
+ margin: 0 auto;
+ background-position: center;
+ font-size: smaller;
+ opacity: .6;
+ }
+ 
+
