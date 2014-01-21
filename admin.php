@@ -7,7 +7,7 @@
     <head>
         <meta charset="UTF-8" />
         <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  -->
-        <title>Login and Registration Form with HTML5 and CSS3</title>
+        <title>ADMINISTRADOR</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <meta name="description" content="Login and Registration Form with HTML5 and CSS3" />
         <meta name="keywords" content="html5, css3, form, switch, animation, :target, pseudo-class" />
@@ -53,10 +53,4 @@
 		echo "No puedes ver esta pagina, registrate e inicia sesion";
 		}?>
 		</body>	
-		<footer>
-<!--  <p><img src="servitenn.jpg" width="296" height="113">
-  </p>-->
-  <h3>Proyecto Universidad Tecnológica Metropolitana </h3>
-  <p>Departamento de Informática - Taller Sistemas de Información   </p>
-</footer>
 </html>
