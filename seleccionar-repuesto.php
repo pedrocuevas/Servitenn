@@ -9,7 +9,7 @@
 	<body>
 	<?php
     session_start();
-     if(isset($_SESSION['username'])){?>
+     if(isset($_SESSION['Rut'])){?>
      	<div id='contenido'>
 			<header>
 				<hgroup>

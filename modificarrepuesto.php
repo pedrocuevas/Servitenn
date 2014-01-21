@@ -10,9 +10,9 @@
 	<?php
 	 include("conexion.php");
     session_start();
-    if(isset($_SESSION['username'])){
+    if(isset($_SESSION['Rut'])){
     mysql_select_db($db,$con) or die("problemas al conectar db");
-    $registro = mysql_query("SELECT * FROM Repuesto WHERE Codigo LIKE '$_POST[codigo]'") or die ("problemas en consulta:".mysql_error());
+    $registro = mysql_query("SELECT * FROM Repuesto WHERE codigo_r LIKE '$_POST[codigo]'") or die ("problemas en consulta:".mysql_error());
     if(mysql_num_rows($registro)==0){
     	echo "<script type=\"text/javascript\">alert(\"El repuesto no se encuentra en la base de datos\");document.location=('./seleccionar-repuesto.php')</script>";
     	}
@@ -27,18 +27,18 @@
                   
           <form action='actualizarrepuesto.php' method='post' name='form'>
             <table>
-                 	 <?
+                 	 <?php
                  	 echo "<tr>";
 						echo	"<td>Codigo*:</td>";
-							echo "<td><input type='number' name='codigo' value='".$reg['Codigo']."'required/></td>";
+							echo "<td><input type='number' name='codigo' value='".$reg['codigo_r']."'required/></td>";
 						echo "</tr>";
 						echo "<tr>";
 							echo "<td>Descripcion*:</td>";
-							echo "<td><input type='text' name='descripcion' value='".$reg['Descripcion']."' required/></td>";
+							echo "<td><input type='text' name='descripcion' value='".$reg['nombre']."' required/></td>";
 						echo "</tr>";
 						echo "<tr>";
 							echo "<td>Precio*:</td>";
-							echo "<td><input type='number' name='precio' value='".$reg['Precio']."' required/></td>";
+							echo "<td><input type='number' name='precio' value='".$reg['precio']."' required/></td>";
 						echo "</tr>";
 						
 							echo "<td><input type='submit' value='insertar datos' /></td>";
@@ -48,11 +48,11 @@
 				<font size='2'>*datos obligatorios</font>  <br>  
 				<br><font size='2'>Si están correctos vuelve al inicio</font>          <br>      
                  </form>
-                 <? }
+                 <?php }
                  ?>
 				</div>		
-	<?php }else {
+	<?php } else {
 		echo "No puedes ver esta pagina, registrate e inicia sesion";
-		}?>
+		} ?>
 		</body>	
 </html>

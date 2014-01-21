@@ -9,7 +9,7 @@
 	<body>
 	<?php
     session_start();
-     if(isset($_SESSION['username'])){?>
+     if(isset($_SESSION['Rut'])){?>
      	<div id='contenido'>
 			<header>
 				<hgroup>
@@ -30,7 +30,7 @@
 						</tr>
 						<tr>
 							<td>Descripcion*:</td>
-							<td><input type="text" name="descripcion" placeholder='Escribir Descripción' required/></td>
+							<td><input type="text" name="nombre" placeholder='Escribir Descripción' required/></td>
 						</tr>
 						<tr>
 							<td>Precio-Unitario*:</td>
