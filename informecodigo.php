@@ -213,9 +213,11 @@ s</script>
 				 </p>
 		    	  
 				 </form>
+				 <form action='user.php' method='post' name='formm'>
 				 <p class="login button"> 
-                 <input type='submit' href="index.html" value='volver' />
-			</p>
+                 <input type='submit' value='volver' />
+			</p></form>
+			
 			
 				 </div>
 				 </div>
