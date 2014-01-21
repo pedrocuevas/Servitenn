@@ -58,7 +58,7 @@ s</script>
                 </div>  
 				</div>
 				</div>
-				<div id="wrapper">
+				<div id="wrapper_dos">
                         <div id="login" class="animate form">
 			 <form action='informe.php' method='post' name='form'>
              <table id="box-table-b">
@@ -83,7 +83,7 @@ s</script>
              <td><input type="text" name="operador" required></td>
              </tr>
              </table>
-				 <table border=1 align='center' cellpadding='0' cellspacing='0' id="box-table-b">
+				 <table align='center' cellpadding='0' cellspacing='0' id="box-table-c">
 				 <tr>
 				 <td>Equipo</td>
 				 <td>N° Serie</td>
@@ -126,7 +126,7 @@ s</script>
 				 <td><input type="time" name="horatermino" placeholder='mayor que hora inicio' required></td>
 				 </tr>
 				 </table>
-				 <table border=1 align='center' cellpadding='0' cellspacing='0' id="box-table-b">
+				 <table align='center' cellpadding='0' cellspacing='0' id="box-table-c">
 				 <tr>
 				 <td>Diagnostico*:</td>
 				 <td><select name='combo1' id='combo1'>
@@ -142,7 +142,7 @@ s</script>
 				 </select></td>				 
 				 </tr>
 				 </table>
-				 <table border=1 align='center' cellpadding='0' cellspacing='0' id="box-table-b">
+				 <table align='center' cellpadding='0' cellspacing='0' id="box-table-c">
 				 <tr>
 				<td>Servicio*:</td>
 				<td><div id="check"><input type="checkbox" name="Cambioaceiteyfiltrodemotor">Cambio aceite y filtro de motor</input><input type="checkbox" name="Aceitepararellenodemotor">Aceite para relleno de motor<br>
@@ -156,7 +156,7 @@ s</script>
             <td><textarea name="pendiente"></textarea></td>
             </tr>
 				</table>
-				<table border=1 align='center' cellpadding='0' cellspacing='0' id="box-table-b">
+				<table align='center' cellpadding='0' cellspacing='0' id="box-table-c">
 				<tr>
 				<td>Descripcion</td>
 				<td>N/Parte</td>				
