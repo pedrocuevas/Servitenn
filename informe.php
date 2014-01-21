@@ -82,7 +82,7 @@ $pdf->Cell(27,6,utf8_decode(' '.$_POST['modelo']),1,0,'C');
 $pdf->Cell(27,6,utf8_decode(' '.$_POST['horainicio']),1,0,'C');
 $pdf->Cell(27,6,utf8_decode(' '.$_POST['horatermino']),1,1,'C');
 $pdf->Ln(2);
-$pdf->Cell(0,6,utf8_decode('Diagnóstico: '.$_POST['combo2']),1,1,'L');
+$pdf->Cell(0,6,utf8_decode('Diagnóstico: '.$_POST['combo1']),1,1,'L');
 $pdf->Multicell(0,10,utf8_decode('Servicio: '.$servicio1.' '.$servicio2.' '.$servicio3.' '.$servicio4.' '.$servicio5.' '.$servicio6.' '.$servicio7.' '.$servicio8),1,'L');
 $pdf->Ln(2);
 $pdf->Multicell(0,10,utf8_decode('Pendiente: '.$_POST['pendiente']),1,'L');
