@@ -47,7 +47,7 @@
 			</div>
 		</div>
 	</div>
-</div
+</div>
 		
 	<?php }else {
 		echo "No puedes ver esta pagina, registrate e inicia sesion";
@@ -55,8 +55,8 @@
 		<footer>
 <!--  <p><img src="servitenn.jpg" width="296" height="113">
   </p>-->
-  <h3>Proyecto Universidad TecnolÛgica Metropolitana </h3>
-  <p>Departamento de Inform·tica - Taller Sistemas de InformaciÛn   </p>
+  <h3>Proyecto Universidad Tecnol√≥gica Metropolitana </h3>
+  <p>Departamento de Inform√°tica - Taller Sistemas de Informaci√≥n   </p>
 </footer>
 		</body>	
 </html>

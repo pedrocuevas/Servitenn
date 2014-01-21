@@ -6,7 +6,7 @@
    
       extract($_POST, EXTR_PREFIX_ALL, "pst"); 
    
-	  mysql_query("INSERT INTO Maquina (codigo maquina,nombre,marca,modelo) VALUES ('$pst_serie','$pst_equipo','$pst_marca','$pst_modelo')",$con);
+	  mysql_query("INSERT INTO Maquina (serie,nombre,marca,modelo) VALUES ('$pst_serie','$pst_equipo','$pst_marca','$pst_modelo')",$con);
      header("Location: admin.php");
    }
     else {
