@@ -208,9 +208,15 @@ s</script>
             </tr>
             </table>
             <br>
-				 <td><input type='submit' value='generar' /></td>
-                  <td><input type='submit' value='volver' /></td>
+			<p class="login button"> 
+				 <input type='submit' value='generar'/>
+				 </p>
+		    	  
 				 </form>
+				 <p class="login button"> 
+                 <input type='submit' href="index.html" value='volver' />
+			</p>
+			
 				 </div>
 				 </div>
 			<section>
