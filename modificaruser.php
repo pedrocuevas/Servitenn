@@ -2,11 +2,19 @@
 <html lang="es">
 	<head>
 		<meta charset='utf-8'>
-		<link rel="stylesheet" href="estilos.css">
+		<title>Modificar Usuario</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Login and Registration Form with HTML5 and CSS3" />
+        <meta name="keywords" content="html5, css3, form, switch, animation, :target, pseudo-class" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style2.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate-custom.css" />
 		<script src='jquery.js'></script>
-        <div id='textPr'>
 	</head>
 	<body>
+	<div class="container">
 	<?php
 	 include("conexion.php");
     session_start();
@@ -20,14 +28,30 @@
     	else {
     while($reg=mysql_fetch_array($registro)) {
     	?>
-     	<div id='contenido'>
-			<header>
-				<hgroup>
-                  	<h1>Modificar Usuario</h1>
-                  </hgroup>
+		<div class="codrops-top">
+                <a href="seleccionuser.php">
+                    <strong>VOLVER</strong>
+                </a>
+                <span class="right">
+                    <a href="destruir.php">
+                    <strong>CERRAR SESIÓN</strong>
+                    </a>
+                </span>
+                <div class="clr"></div>
+       </div>
+			<div id="container_demo" >
+                    <div id="wrapper">
+                        <div id="login" class="animate form">
+                                <h1>Modificar Usuario</h1>
+                        </div>
+                </div>  
+				</div>
+				</div>
                   
+		  <div id="wrapper_dos">
+                        <div id="login" class="animate form">
           <form action='actualizar.php' method='post' name='form'>
-            <table>
+            <table id="box-table-a">
                  	 <?php
                  	 echo "<tr>";
 						echo	"<td>Rut*:</td>";
@@ -59,17 +83,13 @@
 						echo "</tr>";
 						echo "<tr>";
 							echo "<td><input type='submit' value='insertar datos' /></td>";
-							echo "<td><a href='admin.php' ><font size='2'>volver</a></td>";
 						echo "</tr>";}?>
 						</table> <br>
 				<font size='2'>*datos obligatorios</font>  <br>  
 				<br><font size='2'>Si están correctos vuelve al inicio</font>          <br>      
                  </form><?php } ?>
-                 
-                </article>
-				</div>	
-			</section>
-		</div>
+                </div>
+				</div>
 		
 	<?php } else {
 		echo "No puedes ver esta pagina, registrate e inicia sesion";
