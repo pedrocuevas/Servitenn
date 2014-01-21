@@ -53,4 +53,10 @@
 		echo "No puedes ver esta pagina, registrate e inicia sesion";
 		}?>
 		</body>	
+		<footer>
+<!--  <p><img src="servitenn.jpg" width="296" height="113">
+  </p>-->
+  <h3>Proyecto Universidad Tecnológica Metropolitana </h3>
+  <p>Departamento de Informática - Taller Sistemas de Información   </p>
+</footer>
 </html>
