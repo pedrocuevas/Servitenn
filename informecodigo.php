@@ -58,6 +58,8 @@ s</script>
                 </div>  
 				</div>
 				</div>
+				<div id="wrapper">
+                        <div id="login" class="animate form">
 			 <form action='informe.php' method='post' name='form'>
              <table id="box-table-b">
              <tr>
@@ -81,7 +83,6 @@ s</script>
              <td><input type="text" name="operador" required></td>
              </tr>
              </table>
-             <div id="equipo">
 				 <table border=1 align='center' cellpadding='0' cellspacing='0' id="box-table-b">
 				 <tr>
 				 <td>Equipo</td>
@@ -125,7 +126,6 @@ s</script>
 				 <td><input type="time" name="horatermino" placeholder='mayor que hora inicio' required></td>
 				 </tr>
 				 </table>
-				 </div>
 				 <table border=1 align='center' cellpadding='0' cellspacing='0' id="box-table-b">
 				 <tr>
 				 <td>Diagnostico*:</td>
@@ -207,6 +207,8 @@ s</script>
 				 <td><input type='submit' value='generar' /></td>
                   <td><input type='submit' value='volver' /></td>
 				 </form>
+				 </div>
+				 </div>
 			<section>
 					<article>
 						<hgroup>
