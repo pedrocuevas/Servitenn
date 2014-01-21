@@ -42,7 +42,7 @@
 						echo "</tr>";
 						 while($reg=mysql_fetch_array($registro)) {
 						echo "<tr>";
-						echo "<td>".$reg['codigo repuesto']."</td>";
+						echo "<td>".$reg['codigo_r']."</td>";
 						echo "<td>".$reg['nombre']."</td>";
 						echo "<td>".$reg['precio']."</td>";
 						echo "</tr>";
