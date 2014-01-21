@@ -40,7 +40,7 @@ switch($operacion) {
 			  	echo "Sessión Exitosa";
 			        header("Location: user.php");
 			  }else {
-			  	echo "<script type=\"text/javascript\">alert(\"No esta registrado vuelva a intentarlo\");document.location=('./index2.html')</script>";
+			  	echo "<script type=\"text/javascript\">alert(\"No esta registrado vuelva a intentarlo\");document.location=('./index.html')</script>";
 			  	}
 			 
 			}
