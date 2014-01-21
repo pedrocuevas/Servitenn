@@ -145,10 +145,14 @@ s</script>
 				 <table align='center' cellpadding='0' cellspacing='0' id="box-table-c">
 				 <tr>
 				<td>Servicio*:</td>
-				<td><div id="check"><input type="checkbox" name="Cambioaceiteyfiltrodemotor">Cambio aceite y filtro de motor</input><input type="checkbox" name="Aceitepararellenodemotor">Aceite para relleno de motor<br>
-				    <input type="checkbox" name="Cambiofiltrodepetróleo">Cambio filtro de petróleo</input><input type="checkbox" name="Cambiofiltroracor">Cambio filtro racor<br>
-				    <input type="checkbox" name="Cambiofiltrodecantador">Cambio filtro decantador</input><input type="checkbox" name="Cambiofiltrolinea">Cambio filtro linea<br>
-				    <input type="checkbox" name="Cambiodefiltrosdeaire">Cambio de filtros de aire</input><input type="checkbox" name="Aceitepararellenodemotor">Aceite para relleno de motor<br>
+				<td><div id="check"><input type="checkbox" name="Cambioaceiteyfiltrodemotor">Cambio aceite y filtro de motor</input><br>
+				<input type="checkbox" name="Aceitepararellenodemotor">Aceite para relleno de motor</input><br>
+				    <input type="checkbox" name="Cambiofiltrodepetróleo">Cambio filtro de petróleo</input><br>
+					<input type="checkbox" name="Cambiofiltroracor">Cambio filtro racor</input><br>
+				    <input type="checkbox" name="Cambiofiltrodecantador">Cambio filtro decantador</input><br>
+					<input type="checkbox" name="Cambiofiltrolinea">Cambio filtro linea</input><br>
+				    <input type="checkbox" name="Cambiodefiltrosdeaire">Cambio de filtros de aire</input><br>
+					<input type="checkbox" name="Aceitepararellenodemotor">Aceite para relleno de motor</input><br>
 				    </div></td>				 
             </tr>
             <tr>

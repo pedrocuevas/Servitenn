@@ -184,6 +184,11 @@ input {
 	     -o-transition: all 0.2s linear;
 	        transition: all 0.2s linear;
 }
+#check{
+margin:0;
+padding:0;
+text-align:left;
+}
 
 #wrapper input:not([type="checkbox"]):active,
 #wrapper input:not([type="checkbox"]):focus{
