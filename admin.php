@@ -23,6 +23,17 @@
     session_start();
      if(isset($_SESSION['Rut'])){?>
      	<div id='container'>
+		<div class="codrops-top">
+                <a href="index.html">
+                    <strong> PÁGINA PRINCIPAL</strong>
+                </a>
+                <span class="right">
+                    <a href="destruir.php">
+                    <strong>CERRAR SESIÓN</strong>
+                    </a>
+                </span>
+                <div class="clr"></div>
+            </div>		
 			<div id="container_demo" >
                     <div id="wrapper">
 					 <div id="login" class="animate form">
