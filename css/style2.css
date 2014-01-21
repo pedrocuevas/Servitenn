@@ -6,6 +6,7 @@
 	 font-family: "Trebuchet MS","Myriad Pro",Arial,sans-serif;
 }
 
+
 /** fonts used for the icons **/ 
 @font-face {
     font-family: 'FontomasCustomRegular';
@@ -38,6 +39,15 @@ a.hiddenanchor{
 	min-height: 560px;	
 	margin: 0px auto;	
 	width: 500px;
+	position: relative;	
+}
+
+#wrapper_dos{
+	width: 60%;
+	right: 0px;
+	min-height: 560px;	
+	margin: 0px auto;	
+	width: 1000px;
 	position: relative;	
 }
 /**** Styling the form elements **/
@@ -408,11 +418,22 @@ display: inline-block;
 {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 	font-size: 16px;
-	width: 400px;
+	width: 1000px;
 	text-align: center;
 	border-collapse: collapse;
 
 }
+
+#box-table-b
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 13px;
+	width: 1000px;
+	text-align: center;
+	border-collapse: collapse;
+
+}
+
 #box-table-a th
 {
 	font-size: 13px;
@@ -423,6 +444,18 @@ display: inline-block;
 	border-bottom: 1px solid #fff;
 	color: #039;
 }
+
+#box-table-b th
+{
+	font-size: 10px;
+	font-weight: normal;
+	padding: 8px;
+	background: #b9c9fe;
+	border-top: 4px solid #aabcfe;
+	border-bottom: 1px solid #fff;
+	color: #039;
+}
+
 #box-table-a td
 {
 	padding: 8px;
@@ -431,7 +464,24 @@ display: inline-block;
 	color: #669;
 	border-top: 1px solid transparent;
 }
+
+#box-table-b td
+{
+	padding: 8px;
+	background: #e8edff; 
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid transparent;
+}
+
 #box-table-a tr:hover td
 {
 	background: #d0dafd;
 	color: #339;
+}
+
+#box-table-b tr:hover td
+{
+	background: #d0dafd;
+	color: #339;
+}

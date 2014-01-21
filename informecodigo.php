@@ -11,7 +11,6 @@
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
         <link rel="stylesheet" type="text/css" href="css/style2.css" />
 		<link rel="stylesheet" type="text/css" href="css/animate-custom.css" />
-		<link rel="stylesheet" href="estilos.css">
 		<script language="javascript" src="jquery.js"></script>
 		<script language="javascript" src="funciones.js"></script>
 		<script language="javascript">
@@ -28,9 +27,10 @@
    })	});
 s</script>
 </head>
-<div id='textPr2'>
+
 	
 	<body>
+	<div class="container">
 	<?php
 	 include("conexion.php");
     session_start();
@@ -38,14 +38,27 @@ s</script>
      mysql_select_db($db,$con) or die("problemas al conectar db");
 	  $registro = mysql_query("SELECT * FROM maquina ") or die ("problemas en consulta:".mysql_error());
 	  ?>
-		<div id='contenido'>
-			<header>
-				<hgroup>
-					<h1>Generacion de informe</h1>				
-				</hgroup>
+	  <div class="codrops-top">
+                <a href="user.php">
+                    <strong>VOLVER</strong>
+                </a>
+                <span class="right">
+                    <a href="destruir.php">
+                    <strong>CERRAR SESIÓN</strong>
+                    </a>
+                </span>
+                <div class="clr"></div>
+       </div>	
 				
-				 <form action='informe.php' method='post' name='form'>
-             <table>
+                <div id="container_demo" >
+                    <div id="wrapper">
+                        <div id="login" class="animate form">
+                                <h1>Generacion de Informe</h1>
+                        </div>
+                </div>  
+				</div>
+			 <form action='informe.php' method='post' name='form'>
+             <table id="box-table-b">
              <tr>
              <td>Cliente:</td>
              <td><input type="text" name="cliente" required></td>
@@ -68,7 +81,7 @@ s</script>
              </tr>
              </table>
              <div id="equipo">
-				 <table border=1 align='center' cellpadding='0' cellspacing='0'>
+				 <table border=1 align='center' cellpadding='0' cellspacing='0' id="box-table-b">
 				 <tr>
 				 <td>Equipo</td>
 				 <td>N° Serie</td>
@@ -112,7 +125,7 @@ s</script>
 				 </tr>
 				 </table>
 				 </div>
-				 <table border=1 align='center' cellpadding='0' cellspacing='0'>
+				 <table border=1 align='center' cellpadding='0' cellspacing='0' id="box-table-b">
 				 <tr>
 				 <td>Diagnostico*:</td>
 				 <td><select name='combo1' id='combo1'>
@@ -128,7 +141,7 @@ s</script>
 				 </select></td>				 
 				 </tr>
 				 </table>
-				 <table border=1 align='center' cellpadding='0' cellspacing='0'>
+				 <table border=1 align='center' cellpadding='0' cellspacing='0' id="box-table-b">
 				 <tr>
 				<td>Servicio*:</td>
 				<td><div id="check"><input type="checkbox" name="Cambioaceiteyfiltrodemotor">Cambio aceite y filtro de motor</input><input type="checkbox" name="Aceitepararellenodemotor">Aceite para relleno de motor<br>
@@ -142,7 +155,7 @@ s</script>
             <td><textarea name="pendiente"></textarea></td>
             </tr>
 				</table>
-				<table border=1 align='center' cellpadding='0' cellspacing='0'>
+				<table border=1 align='center' cellpadding='0' cellspacing='0' id="box-table-b">
 				<tr>
 				<td>Descripcion</td>
 				<td>N/Parte</td>				
@@ -193,13 +206,11 @@ s</script>
 				 <td><input type='submit' value='generar' /></td>
                   <td><input type='submit' value='volver' /></td>
 				 </form>
-			</header>
 			<section>
 					<article>
 						<hgroup>
                   </hgroup>
                </article>
-				</div>	
 			</section>
 			</div>
 			<?php }else {
