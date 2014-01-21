@@ -45,7 +45,7 @@
 						echo "</tr>";
 						 while($reg=mysql_fetch_array($registro)) {
 						echo "<tr>";
-						echo "<td>".$reg['codigo maquina']."</td>";
+						echo "<td>".$reg['serie']."</td>";
 						echo "<td>".$reg['nombre']."</td>";
 						//echo "<td>".$reg['Motor']."</td>";
 						echo "<td>".$reg['marca']."</td>";
