@@ -7,7 +7,7 @@
     <head>
         <meta charset="UTF-8" />
         <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  -->
-        <title>Login and Registration Form with HTML5 and CSS3</title>
+        <title>Máquinas Registradas</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <meta name="description" content="Login and Registration Form with HTML5 and CSS3" />
         <meta name="keywords" content="html5, css3, form, switch, animation, :target, pseudo-class" />
@@ -29,7 +29,7 @@
 			<div id="container_demo" >
                     <div id="wrapper">
 					 <div id="login" class="animate form">
-					<h1>Máquinas Registradas</h1>	
+					<h1>Maquinas Registradas</h1>	
                  	<section>
 					<article>
                   <?php
@@ -67,5 +67,11 @@
 	<?php }else {
 		echo "no puedes ver esta pagina, registrate e inicia secion";
 		}?>
+<footer>
+<!--  <p><img src="servitenn.jpg" width="296" height="113">
+  </p>-->
+  <h3>Proyecto Universidad Tecnológica Metropolitana </h3>
+  <p>Departamento de Informática - Taller Sistemas de Información   </p>
+</footer>		
 		</body>	
 </html>
